@@ -5,16 +5,16 @@ A project durring a course Algorithm 2 at computer science.
 # Guidelines: random graph Erdos- Renyi model.
 Background to the task: Random graphs help analyze complex networks. In a random graph the amounts of nodes and arcs are random variables Defined by a given probabilistic model. In this exercise we will explore features of unintentional random graphs in the Erdesh-Rinia model. In this model the number of nodes in the graph (we will mark it in V) is fixed and given in advance. However, each side between a pair of nodes will appear in the graph In a probability p independent of the other sides, where p - is a parameter of the model.
 
-Purpose of the task:
+# Purpose of the task:
 In this exercise we will implement a function to create random graphs and in addition we will build auxiliary functions that will help to explore features of The graphs. We will examine the following 3 properties of random graphs in a graph with V nodes (V is a large enough):
 
-connectivity- Threshold1 = (lnV / V) :
-If Threshold1 < probability then the graph does not connected with high probability, And if Threshold1 > probability then the graph connected at high probability.
+1. connectivity- Threshold1 = (lnV / V) :
+If Threshold1 < probability then the graph does not connected with high probability, And if Threshold1 > probability then the graph connected at high probability.  
 
-graph diameter- Threshold2 = sqrt(2lnV/V) :
-if Threshold2 > probability then in high probability the graph diameter is equal to 2. Otherwise the diameter of the graph is greater than 2.
+2. graph diameter- Threshold2 = sqrt(2lnV/V) :
+if Threshold2 > probability then in high probability the graph diameter is equal to 2. Otherwise the diameter of the graph is greater than 2.  
 
-# 3.Isolated node- Threshold3 = (lnV / V) :
+3.Isolated node- Threshold3 = (lnV / V) :
 If Threshold3 < probability then in high probability there is an isolated node graph And if Threshold3 > probability then in high probability does not exist in the graph of an isolated node.
 
 # Simulations:
